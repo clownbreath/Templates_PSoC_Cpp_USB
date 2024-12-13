@@ -1,0 +1,29 @@
+# DO NOT DELETE
+./obj/boot.o : \
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C24~3/m8c.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C24~3/m8ssc.inc\
+   C:\SAFE\TEMPLA~1\PSOC_C~1\PD50_C~1\PSoC\PSoC\lib\GLOBAL~1.INC\
+   C:\SAFE\TEMPLA~1\PSOC_C~1\PD50_C~1\PSoC\PSoC\memory.inc
+./obj/main.o :  ./lib/PSoCAPI.h ./lib/USB.h\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C24~3/m8c.h
+./lib/obj/psocconfig.o :  ./lib/GLOBAL~1.INC\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C24~3/m8c.inc\
+   C:\SAFE\TEMPLA~1\PSOC_C~1\PD50_C~1\PSoC\PSoC\memory.inc
+./lib/obj/psocconfigtbl.o : \
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C24~3/m8c.inc
+./lib/obj/usb.o :  ./lib/USB.inc ./lib/USB_MA~1.INC\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C24~3/m8c.inc\
+   C:\SAFE\TEMPLA~1\PSOC_C~1\PD50_C~1\PSoC\PSoC\memory.inc
+./lib/obj/usb_cls_hid.o :  ./lib/USB.inc ./lib/USB_MA~1.INC\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C24~3/m8c.inc\
+   C:\SAFE\TEMPLA~1\PSOC_C~1\PD50_C~1\PSoC\PSoC\memory.inc
+./lib/obj/usb_descr.o :  ./lib/USB.inc ./lib/USB_MA~1.INC\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C24~3/m8c.inc
+./lib/obj/usb_drv.o :  ./lib/USB.inc ./lib/USB_MA~1.INC\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C24~3/m8c.inc\
+   C:\SAFE\TEMPLA~1\PSOC_C~1\PD50_C~1\PSoC\PSoC\memory.inc
+./lib/obj/usb_std.o :  ./lib/USB.inc ./lib/USB_MA~1.INC\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C24~3/m8c.inc
+./lib/obj/usbint.o :  ./lib/USB.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C24~3/m8c.inc\
+   C:\SAFE\TEMPLA~1\PSOC_C~1\PD50_C~1\PSoC\PSoC\memory.inc

@@ -1,0 +1,35 @@
+Starting MAKE...
+creating project.mk -- no changes
+
+CAUTION lib/psocconfig.asm is older than PSoCConfig.xml or missing
+
+CAUTION you may need to generate source in PSoC Designer
+
+!W C:\SAFE\TEMPLA~1\PSOC_C~1\PD50_C~1\PSoC\PSoC\main.c(56):[warning] [MISRA 2712]old-style function definition for `main'
+
+Linking..
+
+LMM info: area 'InterruptRAM' uses 71 bytes in SRAM bank 0
+
+LMM info: area 'data' item of 64 bytes allocated in SRAM page 0
+
+LMM info: area 'data' item of 64 bytes allocated in SRAM page 0
+
+LMM info: area 'virtual_registers' uses 2 bytes in SRAM page 0
+
+LMM info: area 'data' item of 1 bytes allocated in SRAM page 0
+
+idata dump at output/PSoC.idata
+
+  ROM 23% full. 3654 out of 16384 bytes used (does not include absolute areas).
+
+  RAM 27% full. 202 bytes used (does not include stack usage).
+
+Built with ICCM8C STD V7.05.00
+
+ 
+PSoC - 0 error(s) 1 warning(s) 23:21:04
+
+Performing Project Clean...
+done
+
